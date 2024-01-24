@@ -22,7 +22,7 @@ This means that if the username selected is administrator, the server will throw
 
 Typically, when a database query is unsuccessful and exceptions are not properly managed, the server will generate an Internal Server Error, which is indicated by the HTTP status code 500.
 
-a. First, open Burp Suite Community, then head to the proxy tab, turn on Intercept, then open the browser and browse the vulnerable web application.
+a. Firstly, open Burp Suite Community, then head to the proxy tab, turn on Intercept, then open the browser and browse the vulnerable web application.
 
 b. Then enter any username and password and press “Login", you should see a request on Burp Suite.
 ![image](https://i.imgur.com/YGw9mYG.png)
